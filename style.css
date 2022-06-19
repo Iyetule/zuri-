@@ -1,0 +1,182 @@
+*{
+  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* screen size: Desktop(992px) */
+@media screen and (max-width: 992px){
+    main{
+        width: 100% !important;
+        flex-direction: column;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .caption-container h1 {
+        text-align: center;
+        font-size: 30px !important;
+    }
+
+    .caption-container p{
+        text-align: center;
+        margin: auto !important;
+        padding: 0 75px;
+    }
+
+    .discount-button button {
+        
+        padding: 20px 0 !important;
+        font-size: 16px;
+        height: inherit !important;
+        line-height: 1.5;
+    }
+
+    .form-section {
+        width: 100% !important;
+        padding: 20px !important;
+        margin-bottom: 80px !important;
+    }
+
+    .form-section p{
+        font-size: 12px !important;
+        text-align: center !important;
+    }
+}
+
+/* screen size: Mobile(600px) */
+@media screen and (max-width: 600px){
+
+    body {
+        background-image: url(img/bg-intro-mobile.png);
+    }
+
+    main {
+        width: 100% !important;
+        align-items: center !important;
+        justify-content: center !important;
+        flex-direction: column;
+        /* padding: 5px; */
+    }
+
+    .caption-container h1 {
+        text-align: center;
+        font-size: 40px !important;
+        margin-top: 250px !important;
+    }
+
+    .caption-container p{
+        text-align: center;
+        font-size: 15px !important;
+        margin: auto !important;
+    }
+
+    .discount-button button {
+        
+        padding: 20px 55px !important;
+        font-size: 16px;
+        height: inherit !important;
+        line-height: 1.5;
+    }
+
+    .form-section {
+        width: 100% !important;
+        padding: 10px !important;
+        margin-bottom: 80px !important;
+    }
+
+    .form-section p{
+        font-size: 12px !important;
+        text-align: center !important;
+    }
+}
+
+body{
+    background-color: #EF807C;
+    background-image: url(img/bg-intro-desktop.png);
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    margin: auto;
+    align-items: center;
+    height: 100vh;
+    gap: 40px;
+}
+
+.caption-container h1{
+    line-height: 1.2;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.caption-container p{
+    font-size: 16px;
+    color: white;
+    margin: 0 0 20px 0;
+    /* width: 85%; */
+}
+
+.right-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.discount-button button{
+    border-radius: 10px;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 30px;
+    border: none;
+    color: white;
+    background-color: hsl(248, 32%, 49%);
+    box-shadow: 0px 8px 0px hsla(249, 10%, 26%, 0.25);
+}
+
+.form-section{
+    padding: 40px;
+    border-radius: 10px;
+    width: 470px;
+    background-color: white;
+    box-shadow: 0px 8px 0px hsla(249, 10%, 26%, 0.25);
+}
+
+input{
+    padding: 10px 25px;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 0;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.265);
+}
+
+.form-section button{
+    width: 100%;
+    height: 50px;
+    margin: 10px 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    border: 1.5px solid rgba(128, 128, 128, 0.265);
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: hsl(154, 59%, 51%);
+}
+
+.form-section p{
+    font-size: 10px;
+    color: rgba(128, 128, 128, 0.535);
+    margin: 0 0 10px 0;
+    text-align: center;
